@@ -1,25 +1,15 @@
 # Mekhi's Blog 
-``` Hello, Welcome to Mekhi's Blog. ```
 
-```sql
-SELECT * FROM 'users'
-WHERE location = "USA"
-```
 
-```html
-<html>
-    <head>
-        <title>Website</title>
-    </head>
-</html>
-```
+<span style="color: cyan">**Welcome to my Blog!! Get ready for an exciting journey through the world of technology and development. We provide practical tutorials, industry insights, and creative explorations to empower your coding skills.**</span>
 
-- BP 1
-- BP 2
-- BP 3
+![Bootstrap Icon](/assets/bootstrapicon.png)
 
-1. NP 1
-2. NP 2
-3. NP 3
-
-<span style="color: red">**Hello World**</span>
+## Recent Posts
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
