@@ -8,6 +8,7 @@ In this blog post, we will walk through the development of a simple command-line
 
 Let's start by creating an empty list called `todos` to store our todo items. We will also define a function called `display_todos()` to display the current todo list.
 
+
 ```python
 todos = []  # An empty list to store todos
 
