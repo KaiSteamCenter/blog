@@ -6,7 +6,7 @@ In this blog post, we will walk through the development of a simple command-line
 
 ## **Getting Started**
 
-Let's start by c3reating an empty list called `todos` to store our todo items. We will also define a function called `display_todos()` to display the current todo list.
+Let's start by creating an empty list called `todos` to store our todo items. We will also define a function called `display_todos()` to display the current todo list.
 
 
 ```python
