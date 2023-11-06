@@ -11,9 +11,10 @@ The Titanic is one of the most recognizable tragedies to ever happen. On its voy
 ``This is a example of the type of data I had worked with throughout this whole project:``
 
 
-| PassengerId | Survived | Pclass | Name | Sex | Age | SibSp | Parch | Ticket | Fare | Cabin | Embarked 
-|------------|----------|--------|------|-----|-----|-------|-------|--------|------|-------|----------|
-| 22 | 1 | 2 | Beesley, Mr. Lawrence | male | 34  | 0 | 0 | 248698 | 13 | D56 | S |
+| PassengerId | Survived | Pclass | Name                 | Sex  | Age | SibSp | Parch | Ticket | Fare | Cabin | Embarked |
+|------------|----------|--------|----------------------|------|-----|-------|-------|--------|------|-------|----------|
+| 22         | 1        | 2      | Beesley, Mr. Lawrence | male | 34  | 0     | 0     | 248698 | 13   | D56   | S        |
+
 ## **Question 1: What is the percentage of people who had survived?**
 
 To answer our first question, we want to find out the percentage of passengers who survived the disaster. We will visualize this data to make it more understandable.
