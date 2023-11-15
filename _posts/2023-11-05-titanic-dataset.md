@@ -37,7 +37,7 @@ plt.pie(sizes, labels=labels, autopct='%1.1f%%')
 plt.title('Distribution of Passengers')
 plt.show()
 ```
-<img src="../assets/download.png" width="300" height="300">
+<img src="/blog/assets/download.png" width="300" height="300">
 
 This graph is a pie chart that visually represents the distribution of passengers who survived and those who did not. It provides a clear visualization of the proportion of survivors and non-survivors among the Titanic passengers.
 
@@ -65,7 +65,7 @@ plt.title('Averages of people who paid')
 plt.bar(label, ylist, color=['black', 'green'])
 plt.show()
 ```
-<img src="../assets/download1.png" width="300" height="300">
+<img src="/blog/assets/download1.png" width="300" height="300">
 
 This graph is a bar chart that compares the average fare paid by passengers who survived with the average fare paid by passengers who did not survive. It allows us to see the difference in fare between these two groups.
 
@@ -95,7 +95,7 @@ plt.title('Mortality Rate for Old and Young Survivors')
 plt.show()
 
 ```
-<img src="../assets/download2.png" width="300" height="300">
+<img src="/blog/assets/download2.png" width="300" height="300">
 
 This graph is a bar chart that illustrates the difference in the percentage of survivors between two age groups: those aged 21 and under (Young) and those above 21 (Old). It provides a visual comparison of the survival rates for these two distinct age groups.
 ##
